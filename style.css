@@ -63,7 +63,7 @@ h2 {
   margin-left: 3.2rem;
 }
 
-.text-box {
+.soldoutbox {
   position: absolute;
   top: 80%; /* Position the box in the middle vertically */
   left: 85%; /* Position the box in the middle horizontally */
@@ -75,7 +75,7 @@ h2 {
   width: 8%;
 }
 
-.text-box p {
+.soldoutbox p {
   margin-left: 1.5rem;
 }
 
