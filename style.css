@@ -42,3 +42,7 @@ header .mainnav ul {
 .grid_2-1 img {
   width: 100%;
 }
+
+.discounted {
+  color: red;
+}
