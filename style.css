@@ -1,0 +1,13 @@
+/*Kategori side css*/
+.brandlist ul {
+  display: flex;
+  text-align: center;
+  gap: 10rem;
+  list-style: none;
+  margin-top: 10rem;
+}
+
+.brands {
+  text-align: center;
+  margin-top: 5rem;
+}
