@@ -75,6 +75,10 @@ h2 {
   width: 8%;
 }
 
+.text-box p {
+  margin-left: 1.5rem;
+}
+
 .onsalebox {
   position: absolute;
   top: 35%; /* Position the box in the middle vertically */
