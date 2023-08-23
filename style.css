@@ -7,4 +7,6 @@ header .mainnav ul {
   display: flex;
   gap: 2rem;
   list-style: none;
+  justify-content: right;
+  margin-right: 2rem;
 }
