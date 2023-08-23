@@ -2,11 +2,3 @@
   margin-left: 1.5rem;
   margin-top: 2rem;
 }
-
-header .mainnav ul {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  justify-content: right;
-  margin-right: 2rem;
-}
