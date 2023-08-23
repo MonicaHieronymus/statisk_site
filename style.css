@@ -30,3 +30,15 @@ header .mainnav ul {
 }
 
 /*Produktliste side css*/
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 1rem;
+  gap: 5rem;
+  margin-top: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid_2-1 img {
+  width: 100%;
+}
