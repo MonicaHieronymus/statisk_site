@@ -48,12 +48,16 @@ header .mainnav ul {
 }
 
 .grid_2-1,
-h2,
 h3,
 p {
-  margin-left: 3rem;
+  margin-left: 3.2rem;
+}
+
+h2 {
+  margin-left: 6rem;
+  margin-top: 5rem;
 }
 
 .readmore {
-  margin-left: 3rem;
+  margin-left: 3.2rem;
 }
