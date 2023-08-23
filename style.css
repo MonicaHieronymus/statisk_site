@@ -46,3 +46,14 @@ header .mainnav ul {
 .discounted {
   color: red;
 }
+
+.grid_2-1,
+h2,
+h3,
+p {
+  margin-left: 3rem;
+}
+
+.readmore {
+  margin-left: 3rem;
+}
