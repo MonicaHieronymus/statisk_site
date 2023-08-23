@@ -80,12 +80,23 @@ dl {
 }
 
 .purchasebox {
+  display: grid;
   background: #d8d8d8;
   color: black;
-  padding: 1rem;
-  box-sizing: border-box;
-  margin: 2rem;
-  margin-right: 67rem;
-  border-radius: 1rem;
-  position: relative;
+  border-radius: 8px;
+  width: 20%;
+  text-align: center;
+  margin-top: -17rem;
+  margin-bottom: 10rem;
+  margin-left: 43rem;
+}
+
+.purchasebox h3,
+.purchasebox p {
+  margin-left: -0rem;
+}
+
+.purchasebox .button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
