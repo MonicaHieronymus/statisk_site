@@ -24,14 +24,13 @@ function showProduct(product) {
   ).src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
 
   //if betingelse til procenter
-
   if (product.discount) {
     copy.querySelector("article").classList.add("sale");
     copy.querySelector(".onsalebox").textContent = product.discount + "%";
   }
 
   //produktet er udsolgt
-  if (product.soldout) {
+  if (product.soldout > 0) {
     copy.querySelector("article").classList.add("soldout");
   }
 

@@ -94,21 +94,10 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.soldoutbox {
-  position: absolute;
-  top: 80%; /* Position the box in the middle vertically */
-  left: 85%; /* Position the box in the middle horizontally */
-  transform: translate(-50%, -50%); /* Center the box precisely */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: white;
-  padding: 1px 110px;
-  border-radius: 5px;
-  width: 8%;
-  z-index: 1;
-}
+/* discount + soldout */
 
-.soldoutbox p {
-  margin-left: 1.5rem;
+.smallProduct {
+  position: relative;
 }
 
 .onsalebox {
@@ -123,14 +112,17 @@ h2 {
   width: 2.5rem;
 }
 
-.smallProduct {
-  position: relative;
-}
-
 .onsalebox {
   display: none;
 }
 
 article.sale .onsalebox {
   display: block;
+}
+
+article.soldout::after {
+  content: "Sold Out";
+  padding: 1em;
+  background-color: grey;
+  color: white;
 }
