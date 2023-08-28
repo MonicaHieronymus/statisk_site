@@ -72,9 +72,8 @@ dl {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 5rem;
-  margin-top: 4.5rem;
-  margin-bottom: 1.5rem;
+  gap: 2.5rem;
+  margin: 2rem;
 }
 
 .grid img {
@@ -132,11 +131,4 @@ h2 {
 }
 .onsalebox p {
   margin-left: -0.1rem;
-}
-
-/*Produktliste*/
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
