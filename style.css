@@ -126,3 +126,11 @@ h2 {
 .smallProduct {
   position: relative;
 }
+
+.onsalebox {
+  display: none;
+}
+
+article.sale .onsalebox {
+  display: block;
+}
