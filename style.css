@@ -127,8 +127,9 @@ article.soldout::after {
   color: white;
   position: absolute;
   margin-top: -30rem;
-  margin-left: 0.5rem;
+  margin-left: 0.2rem;
   rotate: 10deg;
   width: 24rem;
   text-align: center;
+  font-size: 18px;
 }
