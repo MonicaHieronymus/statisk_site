@@ -125,4 +125,10 @@ article.soldout::after {
   padding: 1em;
   background-color: grey;
   color: white;
+  position: absolute;
+  margin-top: -30rem;
+  margin-left: 0.5rem;
+  rotate: 10deg;
+  width: 24rem;
+  text-align: center;
 }
