@@ -82,13 +82,6 @@ dl {
 
 .discounted {
   color: red;
-  margin-left: 3.2rem;
-}
-
-.grid,
-h3,
-p {
-  margin-left: 3.2rem;
 }
 
 h2 {
@@ -97,7 +90,6 @@ h2 {
 }
 
 .readmore {
-  margin-left: 3.2rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
@@ -112,6 +104,7 @@ h2 {
   padding: 1px 110px;
   border-radius: 5px;
   width: 8%;
+  z-index: 1;
 }
 
 .soldoutbox p {

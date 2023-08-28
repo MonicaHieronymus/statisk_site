@@ -1,4 +1,4 @@
-fetch("https://kea-alt-del.dk/t7/api/products")
+fetch("https://kea-alt-del.dk/t7/api/products?limit=21")
   .then((res) => res.json())
   .then(showProducts);
 
@@ -24,9 +24,11 @@ function showProduct(product) {
     "img"
   ).src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
 
+  //produktet er udsolgt
   if (product.soldout) {
-    copy.querySelector("article").classList.add("soldOut");
+    copy.querySelector("article").classList.add("soldout");
   }
+
   //appende
   document.querySelector(".grid").appendChild(copy);
 }
