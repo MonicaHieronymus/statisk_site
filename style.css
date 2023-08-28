@@ -113,17 +113,14 @@ h2 {
 
 .onsalebox {
   position: absolute;
-  top: 35%; /* Position the box in the middle vertically */
-  left: 27%; /* Position the box in the middle horizontally */
+  top: 5%; /* Position the box in the middle vertically */
+  left: 85%; /* Position the box in the middle horizontally */
   transform: translate(-50%, -50%); /* Center the box precisely */
-  background-color: rgba(190, 190, 190, 0.5); /* Semi-transparent background */
+  background-color: rgb(255, 233, 106);
   color: rgb(242, 20, 20);
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 5px;
-  width: 2rem;
-}
-.onsalebox p {
-  margin-left: -0.1rem;
+  width: 2.5rem;
 }
 
 .smallProduct {
