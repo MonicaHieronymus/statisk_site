@@ -125,3 +125,7 @@ h2 {
 .onsalebox p {
   margin-left: -0.1rem;
 }
+
+.smallProduct {
+  position: relative;
+}
