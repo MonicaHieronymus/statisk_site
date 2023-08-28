@@ -113,8 +113,8 @@ h2 {
 
 .onsalebox {
   position: absolute;
-  top: 5%; /* Position the box in the middle vertically */
-  left: 85%; /* Position the box in the middle horizontally */
+  top: 2rem; /* Position the box in the middle vertically */
+  left: 23rem; /* Position the box in the middle horizontally */
   transform: translate(-50%, -50%); /* Center the box precisely */
   background-color: rgb(255, 233, 106);
   color: rgb(242, 20, 20);
