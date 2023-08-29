@@ -42,8 +42,6 @@ header .mainnav ul {
   list-style: none;
   margin-top: 6rem;
   font-size: 20px;
-  justify-content: space-between;
-  place-content: center;
 }
 .categorylist a {
   text-decoration: none;
@@ -55,7 +53,8 @@ header .mainnav ul {
   border-radius: 2rem;
   height: 5rem;
   margin: 2rem;
-  place-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Produktliste*/
