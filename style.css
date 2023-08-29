@@ -123,8 +123,12 @@ article.soldout::after {
   margin-top: -0.5rem;
 }
 
+.button {
+  margin-top: 1.5rem;
+}
+
 .purchasebox {
-  margin-top: 6rem;
+  margin-top: 3.5rem;
   border: 2rem;
   background-color: rgba(240, 240, 138, 0.812);
   border-radius: 4rem;
@@ -132,4 +136,10 @@ article.soldout::after {
   height: 20rem;
   text-align: center;
   justify-content: baseline;
+  font-size: 18px;
+}
+
+.purchasebox h3,
+form {
+  margin-top: 4rem;
 }
