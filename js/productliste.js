@@ -17,8 +17,7 @@ function showProduct(product) {
   copy.querySelector("h3").textContent = product.productdisplayname;
   copy.querySelector("p.subtle").textContent = product.brandname;
   copy.querySelector("p.gender").textContent = product.gender;
-  copy.querySelector("p.price").textContent =
-    "prev. " + product.price + ",-" + " DKK";
+  copy.querySelector("p.price").textContent = product.price + ",-" + " DKK";
 
   copy.querySelector(
     "img"
