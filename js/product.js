@@ -13,6 +13,12 @@ function showProduct(product) {
   document.querySelector(".sport").textContent =
     product.gender + " | " + product.articletype;
   document.querySelector(".price").textContent = product.price + " dkk";
+  document.querySelector(".info h1").textContent = product.brandname;
+  document.querySelector(".info p").textContent = product.brandbio;
+  document.querySelector(".info .display").textContent =
+    product.productdisplayname;
+  document.querySelector(".info .color").textContent = product.basecolour;
+  document.querySelector(".info .inventory").textContent = product.relid;
 
   document.querySelector(
     "img"
