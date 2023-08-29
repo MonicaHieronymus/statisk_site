@@ -2,23 +2,6 @@ body {
   background-color: rgb(245, 241, 236);
 }
 
-/*Index side css*/
-.overskrift2 h2 {
-  margin-left: 1.5rem;
-  margin-top: 10rem;
-  text-align: center;
-  font-size: 30px;
-}
-
-.nav ul {
-  display: flex;
-  gap: 4rem;
-  place-content: center;
-  margin-top: 8rem;
-  font-size: 25px;
-  list-style: none;
-}
-
 a {
   color: black;
 }
@@ -44,13 +27,29 @@ header .mainnav ul {
   margin-right: 2rem;
 }
 
+/*Index side css*/
+.overskrift2 h2 {
+  margin-left: 1.5rem;
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 30px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 4rem;
+  place-content: center;
+  margin-top: 8rem;
+  font-size: 25px;
+  list-style: none;
+}
+
 /*Kategori side css*/
 
 .category {
   text-align: center;
   margin-top: 5rem;
   margin-bottom: -1rem;
-  margin-left: 2rem;
 }
 
 .categorylist ul {
@@ -62,6 +61,10 @@ header .mainnav ul {
 }
 .categorylist a {
   text-decoration: none;
+}
+
+.categorylist {
+  margin-right: 2rem;
 }
 
 .box {
