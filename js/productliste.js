@@ -35,6 +35,10 @@ function showProduct(product) {
     copy.querySelector("article").classList.add("soldout");
   }
 
+  copy
+    .querySelector(".readMore")
+    .setAttribute("href", `produkt.html?id=${product.id}`);
+
   //appende
   document.querySelector(".grid").appendChild(copy);
 }
