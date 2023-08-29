@@ -27,7 +27,7 @@ function showProduct(product) {
   //if betingelse til procenter
   if (product.discount) {
     copy.querySelector("article").classList.add("sale");
-    copy.querySelector(".onsalebox").textContent = product.discount + "%";
+    copy.querySelector(".onsalebox").textContent = "-" + product.discount + "%";
   }
 
   //produktet er udsolgt

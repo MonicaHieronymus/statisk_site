@@ -11,6 +11,7 @@ function showProduct(product) {
   document.querySelector(".purchasebox h3").textContent =
     product.productdisplayname;
   document.querySelector(".sport").textContent = product.gender;
+  document.querySelector(".price").textContent = product.price + " dkk";
 
   document.querySelector(
     "img"
