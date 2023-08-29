@@ -12,11 +12,28 @@ body {
 
 .nav ul {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
   place-content: center;
   margin-top: 8rem;
   font-size: 25px;
   list-style: none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(116, 116, 158);
+}
+
+.mainnav a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.mainnav ul {
+  margin-top: 2rem;
 }
 
 header .mainnav ul {
