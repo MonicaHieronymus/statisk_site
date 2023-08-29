@@ -163,10 +163,23 @@ article.soldout::after {
 
 .info h2 {
   margin-left: 0rem;
+  margin-bottom: 2.5rem;
 }
 
 .info {
   margin-top: -0.5rem;
+}
+
+.info dd {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.info dt {
+  margin-top: 2rem;
+}
+
+.info h1 {
+  margin-top: 3rem;
 }
 
 .button {
@@ -174,7 +187,7 @@ article.soldout::after {
 }
 
 .purchasebox {
-  margin-top: 3.5rem;
+  margin-top: 7rem;
   border: 2rem;
   background-color: rgba(95, 218, 234, 0.292);
   border-radius: 4rem;
