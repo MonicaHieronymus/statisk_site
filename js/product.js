@@ -10,7 +10,8 @@ function showProduct(product) {
   console.log(product);
   document.querySelector(".purchasebox h3").textContent =
     product.productdisplayname;
-  document.querySelector(".sport").textContent = product.gender;
+  document.querySelector(".sport").textContent =
+    product.gender + " | " + product.articletype;
   document.querySelector(".price").textContent = product.price + " dkk";
 
   document.querySelector(
