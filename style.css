@@ -32,70 +32,6 @@ header .mainnav ul {
   margin-right: 2rem;
 }
 
-/*Produktliste side css*/
-.grid_2-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 1rem;
-  gap: 5rem;
-  margin-top: 4.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.grid_2-1 img {
-  width: 100%;
-}
-
-.discounted {
-  color: red;
-}
-
-.grid_2-1,
-h3,
-p {
-  margin-left: 3.2rem;
-}
-
-h2 {
-  margin-left: 6rem;
-  margin-top: 5rem;
-}
-
-.readmore {
-  margin-left: 3.2rem;
-}
-
-.soldoutbox {
-  position: absolute;
-  top: 80%; /* Position the box in the middle vertically */
-  left: 85%; /* Position the box in the middle horizontally */
-  transform: translate(-50%, -50%); /* Center the box precisely */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: white;
-  padding: 1px 110px;
-  border-radius: 5px;
-  width: 8%;
-}
-
-.soldoutbox p {
-  margin-left: 1.5rem;
-}
-
-.onsalebox {
-  position: absolute;
-  top: 35%; /* Position the box in the middle vertically */
-  left: 27%; /* Position the box in the middle horizontally */
-  transform: translate(-50%, -50%); /* Center the box precisely */
-  background-color: rgba(190, 190, 190, 0.5); /* Semi-transparent background */
-  color: rgb(242, 20, 20);
-  padding: 10px 20px;
-  border-radius: 5px;
-  width: 2rem;
-}
-.onsalebox p {
-  margin-left: -0.1rem;
-}
-
 /*Produkt side css*/
 
 .info h1,
@@ -132,4 +68,70 @@ dl {
 .purchasebox .button {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+/*Produktliste*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+  margin: 2rem;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.discounted {
+  color: red;
+}
+
+h2 {
+  margin-left: 6rem;
+  margin-top: 5rem;
+}
+
+.readmore {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* discount + soldout */
+
+.smallProduct {
+  position: relative;
+}
+
+.onsalebox {
+  position: absolute;
+  top: 2rem; /* Position the box in the middle vertically */
+  left: 23rem; /* Position the box in the middle horizontally */
+  transform: translate(-50%, -50%); /* Center the box precisely */
+  background-color: rgb(255, 233, 106);
+  color: rgb(242, 20, 20);
+  padding: 20px 20px;
+  border-radius: 5px;
+  width: 2.5rem;
+}
+
+.onsalebox {
+  display: none;
+}
+
+article.sale .onsalebox {
+  display: block;
+}
+
+article.soldout::after {
+  content: "Sold Out";
+  padding: 1em;
+  background-color: grey;
+  color: white;
+  position: absolute;
+  margin-top: -30rem;
+  margin-left: 0.2rem;
+  rotate: 10deg;
+  width: 24rem;
+  text-align: center;
+  font-size: 18px;
 }
