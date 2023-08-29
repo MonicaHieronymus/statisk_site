@@ -1,27 +1,22 @@
+body {
+  background-color: rgb(245, 241, 236);
+}
+
 /*Index side css*/
 .overskrift2 h2 {
   margin-left: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 30px;
 }
 
-/*Kategori side css*/
-.categorylist ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
-  list-style: none;
+.nav ul {
+  display: flex;
+  gap: 2rem;
+  place-content: center;
   margin-top: 8rem;
-  font-size: 20px;
-  gap: 10rem;
-}
-
-.categorylist a {
-  text-decoration: none;
-}
-
-.category {
-  text-align: center;
-  margin-top: 7rem;
+  font-size: 25px;
+  list-style: none;
 }
 
 header .mainnav ul {
@@ -30,6 +25,37 @@ header .mainnav ul {
   list-style: none;
   justify-content: right;
   margin-right: 2rem;
+}
+
+/*Kategori side css*/
+
+.category {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: -1rem;
+  margin-left: 2rem;
+}
+
+.categorylist ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  margin-top: 6rem;
+  font-size: 20px;
+  justify-content: space-between;
+  place-content: center;
+}
+.categorylist a {
+  text-decoration: none;
+}
+
+.box {
+  display: flex;
+  background-color: rgba(145, 177, 206, 0.397);
+  border-radius: 2rem;
+  height: 5rem;
+  margin: 2rem;
+  place-content: center;
 }
 
 /*Produktliste*/
@@ -49,8 +75,9 @@ header .mainnav ul {
 }
 
 h2 {
-  margin-left: 6rem;
+  margin-left: 2rem;
   margin-top: 5rem;
+  font-size: 30px;
 }
 
 .readmore {
@@ -130,7 +157,7 @@ article.soldout::after {
 .purchasebox {
   margin-top: 3.5rem;
   border: 2rem;
-  background-color: rgba(240, 240, 138, 0.812);
+  background-color: rgba(95, 218, 234, 0.292);
   border-radius: 4rem;
   width: 20rem;
   height: 20rem;
