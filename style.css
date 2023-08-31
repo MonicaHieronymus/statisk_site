@@ -79,10 +79,11 @@ header .mainnav ul {
 
 /*Produktliste*/
 .grid {
+  max-width: 1000px;
+  margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 2.5rem;
-  margin: 2rem;
 }
 
 .grid img {
@@ -94,7 +95,7 @@ header .mainnav ul {
 }
 
 h2 {
-  margin-left: 2rem;
+  margin-left: 13.5rem;
   margin-top: 5rem;
   font-size: 30px;
 }
@@ -113,7 +114,7 @@ h2 {
 .onsalebox {
   position: absolute;
   top: 2rem; /* Position the box in the middle vertically */
-  left: 23rem; /* Position the box in the middle horizontally */
+  left: 16rem; /* Position the box in the middle horizontally */
   transform: translate(-50%, -50%); /* Center the box precisely */
   background-color: rgb(255, 233, 106);
   color: rgb(242, 20, 20);
@@ -139,7 +140,7 @@ article.soldout::after {
   margin-top: -30rem;
   margin-left: 0.2rem;
   rotate: 10deg;
-  width: 24rem;
+  width: 16.5rem;
   text-align: center;
   font-size: 18px;
 }
@@ -201,4 +202,147 @@ article.soldout::after {
 .purchasebox h3,
 form {
   margin-top: 2.5rem;
+}
+
+@media (max-width: 844px) {
+  /*Index side css*/
+  .overskrift2 h2 {
+    margin-left: 0rem;
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .nav ul {
+    display: flex;
+    gap: 2rem;
+    place-content: center;
+    margin-top: 6rem;
+    font-size: 20px;
+    list-style: none;
+    margin-left: -2.5rem;
+  }
+
+  /*produkt*/
+
+  .blacknetjersey img {
+    width: 90%;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+
+  .info h2 {
+    margin-left: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+  }
+
+  .info {
+    margin-top: -2rem;
+  }
+
+  .info dd {
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+  }
+  .info dt {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .info h1,
+  p {
+    text-align: center;
+  }
+
+  .button {
+    margin-top: 1rem;
+  }
+
+  .purchasebox {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    border: 2rem;
+    background-color: rgba(95, 218, 234, 0.292);
+    border-radius: 4rem;
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    justify-content: baseline;
+    font-size: 14px;
+  }
+
+  .purchasebox h3,
+  form {
+    margin-top: 2rem;
+  }
+
+  /*Kategori side css*/
+  .categorylist ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    margin-top: 6rem;
+    font-size: 21px;
+  }
+  .categorylist a {
+    text-decoration: none;
+  }
+  .box {
+    display: flex;
+    background-color: rgba(145, 177, 206, 0.397);
+    border-radius: 2rem;
+    height: 4rem;
+    width: 7rem;
+    margin: 2rem;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /*produktliste*/
+  h2 {
+    margin-left: 8rem;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .readmore {
+    margin-left: 4.8rem;
+  }
+
+  img {
+    margin-left: -4.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .onsalebox {
+    margin-left: 3.5rem;
+  }
+
+  article.soldout::after {
+    content: "Sold Out";
+    padding: 1em;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    margin-top: -30rem;
+    margin-left: 0.5rem;
+    rotate: 10deg;
+    width: 20rem;
+    text-align: center;
+    font-size: 18px;
+  }
 }
